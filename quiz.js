@@ -17,3 +17,5 @@ function checkAnswer() {
       "Please select an answer.";
   }
 }
+
+document.getElementById("submit-answer").addEventListener("click", checkAnswer);
